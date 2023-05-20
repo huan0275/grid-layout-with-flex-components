@@ -66,8 +66,8 @@ body{
 }
 p{
     order: 1;
-    text-align: left;
-    margin-left:1rem;
+     
+    margin-left:0;
     margin-right: 1rem;
 }
 a {
@@ -81,7 +81,7 @@ a {
     border-radius: 9px;
     text-align: left;
     order:1;
-    margin:1rem 1rem;
+    margin:1rem 0;
 }
 .emojis .emoji{
     border: 1px black solid;
