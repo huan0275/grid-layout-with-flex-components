@@ -1,89 +1,78 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
 }
+
 .emoji {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-  }
-  
-  .emoji h2 {
+}
+
+.emoji h2 {
     margin: 0;
     border-bottom: 2px solid #ccc;
-  }
-  
-  .emoji a {
+    order: 1;
+    text-align: left;
+    margin-right: 1rem;
+    /* to actually make the line have a margin to the right*/
+}
+
+.emoji a {
     text-decoration: none;
     background-color: #781BAA;
     color: white;
     padding: 1rem;
     border-radius: 8px;
-  }
-  
-  .icon {
-    font-size: 4rem;
-  }
-
-  
-* {
-    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    text-decoration: none;
+    text-align: left;
+    order: 1;
+    margin: 1rem 0;
 }
-.icon{
+
+.icon {
     font-size: 4rem;
     text-align: center;
 }
-.emoji:first-child{
+
+* {
+    box-sizing: border-box;
+}
+
+.emoji:first-child {
     display: flex;
     flex-direction: column;
-    margin:10px;
+    margin: 10px;
     flex-wrap: wrap;
-    
+
 }
+
 .emoji:nth-child(2),
-.emoji:nth-child(3){
+.emoji:nth-child(3) {
     display: flex;
     flex-direction: column;
-    margin:10px;
-    flex-wrap: wrap;
-}
-.emoji:last-child{
-    display: flex;
-    flex-direction: column;
-    margin:10px;
+    margin: 10px;
     flex-wrap: wrap;
 }
 
-    
-  h2{
-    order: 1;
-    text-align:left;
-    border-bottom: 1px solid gray;
-    margin-right: 1rem;
-    /* to actually make the line have a margin to the right*/
-    margin-left:1rem;
-    
+.emoji:last-child {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex-wrap: wrap;
 }
-p{
+
+p {
     order: 1;
-     
-    margin-left:0;
+    margin-left: 0;
     margin-right: 1rem;
 }
-a {
-    background-color: #7837AA;
-    padding-left:1rem;
-    padding-top:1rem;
-    padding-bottom: 1rem;
-    padding-right: 3rem;
-    color:white;
-    text-decoration: none;
-    border-radius: 9px;
-    text-align: left;
-    order:1;
-    margin:1rem 0;
-}
-.emojis .emoji{
+
+.emojis .emoji {
     border: 1px black solid;
     border-radius: .5rem;
     display: flex;
@@ -94,6 +83,5 @@ a {
 .emojis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
 }
- 
